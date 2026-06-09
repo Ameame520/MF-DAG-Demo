@@ -1,0 +1,148 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="RuZZJGkig-liY7dVsxG8">
+    <mxGraphModel dx="1663" dy="1095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1" value="Overall Framework of MF-DAG for Scalable Social Propagation Modeling" vertex="1">
+          <mxGeometry height="40" width="670" x="80" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="secA" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=14;align=center;verticalAlign=top;spacingTop=8" value="Left: Data &amp; Population" vertex="1">
+          <mxGeometry height="190" width="490" x="170" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle" value="Social Propagation Data Stream" vertex="1">
+          <mxGeometry height="30" width="390" x="220" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle" value="Agent / User Population" vertex="1">
+          <mxGeometry height="30" width="390" x="220" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="A3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle" value="Cohort Construction" vertex="1">
+          <mxGeometry height="30" width="390" x="220" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="A4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle" value="Cohort-level Agent Groups&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;Rep LLM + Followers&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="390" x="220" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="secB" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaf2f8;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;align=center;verticalAlign=top;spacingTop=8" value="Middle-Top: Mean-Field State Construction" vertex="1">
+          <mxGeometry height="160" width="490" x="170" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="B1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle" value="Current Propagation State at t" vertex="1">
+          <mxGeometry height="30" width="390" x="220" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="B2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;fontStyle=1" value="Mean-Field Interaction Compression" vertex="1">
+          <mxGeometry height="30" width="390" x="220" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="B3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;fontStyle=1" value="Cohort-level Mean-Field State" vertex="1">
+          <mxGeometry height="30" width="390" x="220" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="secD" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaf2f8;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;align=center;verticalAlign=top;spacingTop=8" value="Middle-Core: Memory-Guided Decision Core" vertex="1">
+          <mxGeometry height="160" width="490" x="170" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="D1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;fontStyle=1" value="Memory-Guided Decision Harness" vertex="1">
+          <mxGeometry height="30" width="390" x="220" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="D2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle" value="Representative LLM-agent Decision" vertex="1">
+          <mxGeometry height="30" width="390" x="220" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="D3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle" value="Cohort-level Decision Signal" vertex="1">
+          <mxGeometry height="30" width="390" x="220" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="secE" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=14;align=center;verticalAlign=top;spacingTop=8" value="Right: Follower Update &amp; Transition" vertex="1">
+          <mxGeometry height="160" width="490" x="170" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="E1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle" value="Lightweight Follower Heterogeneous Update" vertex="1">
+          <mxGeometry height="30" width="390" x="220" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="E2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle" value="Heterogeneous Social Actions" vertex="1">
+          <mxGeometry height="30" width="390" x="220" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="E3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;align=center;verticalAlign=middle" value="Propagation State at t+1" vertex="1">
+          <mxGeometry height="30" width="390" x="220" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="secF" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;fontStyle=1;fontSize=14;align=center;verticalAlign=top;spacingTop=8" value="Bottom Loop: Memory Update" vertex="1">
+          <mxGeometry height="100" width="490" x="170" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="F1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;align=center;verticalAlign=middle" value="Memory Update&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;compress current outcome into experience&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="390" x="220" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="M1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=center;verticalAlign=middle;fontStyle=1" value="Collective Social Memory Bank&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;global collective experience memory&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="350" x="240" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="M2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=center;verticalAlign=middle" value="Memory Retrieval&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;cohort-conditioned retrieval&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="350" x="240" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeA1" edge="1" parent="1" source="A1" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="A2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeA2" edge="1" parent="1" source="A2" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="A3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeA3" edge="1" parent="1" source="A3" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="A4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeAB" edge="1" parent="1" source="A4" style="endArrow=block;html=1;rounded=0;strokeWidth=1.8;strokeColor=#333333;" target="B1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeB1" edge="1" parent="1" source="B1" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="B2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeB2" edge="1" parent="1" source="B2" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="B3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeBD" edge="1" parent="1" source="B3" style="endArrow=block;html=1;rounded=0;strokeWidth=3;strokeColor=#1f4e79;fontSize=10;" target="D1" value="current cohort state">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeD1" edge="1" parent="1" source="D1" style="endArrow=block;html=1;rounded=0;strokeWidth=3;strokeColor=#1f4e79;fontSize=10;" target="D2" value="decision context">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeD2" edge="1" parent="1" source="D2" style="endArrow=block;html=1;rounded=0;strokeWidth=3;strokeColor=#1f4e79;fontSize=10;" target="D3" value="cohort-level guidance">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeDE" edge="1" parent="1" source="D3" style="endArrow=block;html=1;rounded=0;strokeWidth=3;strokeColor=#1f4e79;" target="E1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeE1" edge="1" parent="1" source="E1" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="E2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeE2" edge="1" parent="1" source="E2" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="E3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeEF" edge="1" parent="1" source="E3" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#9673a6;dashed=1;dashPattern=8 4;fontSize=10;" target="F1" value="new propagation outcome">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeFM1" edge="1" parent="1" source="F1" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#9673a6;dashed=1;dashPattern=8 4;fontSize=10;" target="M1" value="updated collective experience">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeM1M2" edge="1" parent="1" source="M1" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#9673a6;dashed=1;dashPattern=8 4;" target="M2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeM2D" edge="1" parent="1" source="M2" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#9673a6;dashed=1;dashPattern=8 4;fontSize=10;edgeStyle=orthogonalEdgeStyle;" target="D1" value="retrieved memories">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="1135" />
+              <mxPoint x="690" y="565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeB3M2" edge="1" parent="1" source="B3" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#9673a6;dashed=1;dashPattern=8 4;fontSize=10;edgeStyle=orthogonalEdgeStyle;" target="M2" value="retrieval query">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="445" />
+              <mxPoint x="130" y="1135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeD3F1" edge="1" parent="1" source="D3" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#9673a6;dashed=1;dashPattern=8 4;fontSize=10;edgeStyle=orthogonalEdgeStyle;" target="F1" value="decision signal record">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="645" />
+              <mxPoint x="680" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=8" value="Solid arrows: data flow&#xa;Bold blue arrows: decision control flow&#xa;Dashed purple arrows: memory retrieval / update flow" vertex="1">
+          <mxGeometry height="80" width="180" x="20" y="1030" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
