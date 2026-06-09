@@ -1,0 +1,60 @@
+data:
+  data_root: /Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data
+  feed_name: Blacksky
+  feed_posts_path: feed_posts/feed_posts/Blacksky.jsonl.gz
+  threads_path: graphs/graphs/threads.txt
+  threads_gz_path: graphs/graphs/threads.txt.gz
+  processed_dir: outputs/processed/blacksky
+
+candidate_threads:
+  condition_name: condition_2
+  min_thread_len: 3
+  min_matched_post_count: 2
+  max_threads: null
+  min_threads: 500
+  use_all_available: true
+
+agents:
+  target_agent_count: null
+  use_all_available: true
+  fallback_agent_count: 100
+  sampling_strategy: stratified_by_activity
+
+cohorts:
+  cohort_count: 5
+  strategy: hybrid_activity_behavior
+  representative_strategy: highest_activity
+
+simulation:
+  step_mode: matched_sequence
+  prediction_mode: one_step
+  train_history_ratio: 0.7
+  eval_ratio: 0.3
+  random_seed: 42
+  prompt_text_max_chars: 200
+
+memory:
+  enabled: true
+  store_type: jsonl
+  retrieval_top_k_global: 3
+  retrieval_top_k_cohort: 3
+  similarity: structured_cosine
+
+llm:
+  provider: deepseek
+  model: deepseek-v4-flash
+  api_base: https://api.deepseek.com
+  temperature: 0.2
+  max_tokens: 800
+
+baselines:
+  run_full_llm_agent: true
+  run_mean_field_llm: true
+  run_rule_based_agent: true
+  full_llm_agent_max_threads: 100
+
+debug:
+  enabled: false
+  debug_threads: 20
+  debug_agents: 20
+  debug_cohorts: 2
