@@ -1,0 +1,2820 @@
+{
+  "generated_at": "2026-06-09T14:45:59.010608",
+  "data_root": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data",
+  "threads_path": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/graphs/graphs/threads.txt",
+  "total_threads_scanned": 19486141,
+  "feed_count": 11,
+  "feed_names": [
+    "#Disability",
+    "#UkrainianView",
+    "AcademicSky",
+    "Blacksky",
+    "BookSky",
+    "Game Dev",
+    "GreenSky",
+    "News",
+    "Political Science",
+    "Science",
+    "What's History"
+  ],
+  "feed_stats": {
+    "#Disability": {
+      "feed_name": "#Disability",
+      "feed_path": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/feed_posts/feed_posts/#Disability.jsonl.gz",
+      "total_posts": 566,
+      "unique_post_ids": 566,
+      "unique_user_ids": 411,
+      "date_min": 202307270630,
+      "date_max": 202403182351,
+      "text_nonempty_count": 566,
+      "text_nonempty_ratio": 1.0,
+      "reply_to_nonempty_count": 0,
+      "quotes_nonempty_count": 80,
+      "like_count": {
+        "mean": 8.4,
+        "median": 3.0,
+        "max": 628
+      },
+      "reply_count": {
+        "mean": 0.66,
+        "median": 0.0,
+        "max": 29
+      },
+      "repost_count": {
+        "mean": 2.57,
+        "median": 0.0,
+        "max": 145
+      }
+    },
+    "#UkrainianView": {
+      "feed_name": "#UkrainianView",
+      "feed_path": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/feed_posts/feed_posts/#UkrainianView.jsonl.gz",
+      "total_posts": 2098,
+      "unique_post_ids": 2097,
+      "unique_user_ids": 172,
+      "date_min": 202307051127,
+      "date_max": 202403182219,
+      "text_nonempty_count": 2097,
+      "text_nonempty_ratio": 0.9995,
+      "reply_to_nonempty_count": 204,
+      "quotes_nonempty_count": 352,
+      "like_count": {
+        "mean": 25.11,
+        "median": 18.0,
+        "max": 291
+      },
+      "reply_count": {
+        "mean": 0.96,
+        "median": 0.0,
+        "max": 17
+      },
+      "repost_count": {
+        "mean": 6.47,
+        "median": 3.0,
+        "max": 103
+      }
+    },
+    "AcademicSky": {
+      "feed_name": "AcademicSky",
+      "feed_path": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/feed_posts/feed_posts/AcademicSky.jsonl.gz",
+      "total_posts": 913,
+      "unique_post_ids": 913,
+      "unique_user_ids": 352,
+      "date_min": 202402142113,
+      "date_max": 202403182317,
+      "text_nonempty_count": 913,
+      "text_nonempty_ratio": 1.0,
+      "reply_to_nonempty_count": 71,
+      "quotes_nonempty_count": 77,
+      "like_count": {
+        "mean": 4.66,
+        "median": 2,
+        "max": 302
+      },
+      "reply_count": {
+        "mean": 0.44,
+        "median": 0,
+        "max": 10
+      },
+      "repost_count": {
+        "mean": 1.33,
+        "median": 0,
+        "max": 51
+      }
+    },
+    "Blacksky": {
+      "feed_name": "Blacksky",
+      "feed_path": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/feed_posts/feed_posts/Blacksky.jsonl.gz",
+      "total_posts": 86490,
+      "unique_post_ids": 86299,
+      "unique_user_ids": 1564,
+      "date_min": 202309240136,
+      "date_max": 202403182357,
+      "text_nonempty_count": 85411,
+      "text_nonempty_ratio": 0.9875,
+      "reply_to_nonempty_count": 0,
+      "quotes_nonempty_count": 24776,
+      "like_count": {
+        "mean": 20.1,
+        "median": 4.0,
+        "max": 11104
+      },
+      "reply_count": {
+        "mean": 1.29,
+        "median": 0.0,
+        "max": 703
+      },
+      "repost_count": {
+        "mean": 3.73,
+        "median": 0.0,
+        "max": 4761
+      }
+    },
+    "BookSky": {
+      "feed_name": "BookSky",
+      "feed_path": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/feed_posts/feed_posts/BookSky.jsonl.gz",
+      "total_posts": 638,
+      "unique_post_ids": 638,
+      "unique_user_ids": 275,
+      "date_min": 202312172253,
+      "date_max": 202403182315,
+      "text_nonempty_count": 638,
+      "text_nonempty_ratio": 1.0,
+      "reply_to_nonempty_count": 57,
+      "quotes_nonempty_count": 71,
+      "like_count": {
+        "mean": 6.31,
+        "median": 4.0,
+        "max": 392
+      },
+      "reply_count": {
+        "mean": 0.58,
+        "median": 0.0,
+        "max": 32
+      },
+      "repost_count": {
+        "mean": 1.53,
+        "median": 0.0,
+        "max": 126
+      }
+    },
+    "Game Dev": {
+      "feed_name": "Game Dev",
+      "feed_path": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/feed_posts/feed_posts/Game Dev.jsonl.gz",
+      "total_posts": 635,
+      "unique_post_ids": 635,
+      "unique_user_ids": 504,
+      "date_min": 202403161455,
+      "date_max": 202403182357,
+      "text_nonempty_count": 635,
+      "text_nonempty_ratio": 1.0,
+      "reply_to_nonempty_count": 106,
+      "quotes_nonempty_count": 21,
+      "like_count": {
+        "mean": 6.85,
+        "median": 2,
+        "max": 174
+      },
+      "reply_count": {
+        "mean": 0.51,
+        "median": 0,
+        "max": 11
+      },
+      "repost_count": {
+        "mean": 1.05,
+        "median": 0,
+        "max": 42
+      }
+    },
+    "GreenSky": {
+      "feed_name": "GreenSky",
+      "feed_path": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/feed_posts/feed_posts/GreenSky.jsonl.gz",
+      "total_posts": 662,
+      "unique_post_ids": 658,
+      "unique_user_ids": 190,
+      "date_min": 202403150900,
+      "date_max": 202403182359,
+      "text_nonempty_count": 662,
+      "text_nonempty_ratio": 1.0,
+      "reply_to_nonempty_count": 288,
+      "quotes_nonempty_count": 59,
+      "like_count": {
+        "mean": 12.77,
+        "median": 4.0,
+        "max": 352
+      },
+      "reply_count": {
+        "mean": 0.97,
+        "median": 1.0,
+        "max": 18
+      },
+      "repost_count": {
+        "mean": 3.89,
+        "median": 1.0,
+        "max": 126
+      }
+    },
+    "News": {
+      "feed_name": "News",
+      "feed_path": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/feed_posts/feed_posts/News.jsonl.gz",
+      "total_posts": 42112,
+      "unique_post_ids": 41685,
+      "unique_user_ids": 75,
+      "date_min": 202302200227,
+      "date_max": 202403182341,
+      "text_nonempty_count": 41639,
+      "text_nonempty_ratio": 0.9888,
+      "reply_to_nonempty_count": 683,
+      "quotes_nonempty_count": 0,
+      "like_count": {
+        "mean": 43.18,
+        "median": 3.0,
+        "max": 4017
+      },
+      "reply_count": {
+        "mean": 1.62,
+        "median": 0.0,
+        "max": 441
+      },
+      "repost_count": {
+        "mean": 5.24,
+        "median": 1.0,
+        "max": 1197
+      }
+    },
+    "Political Science": {
+      "feed_name": "Political Science",
+      "feed_path": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/feed_posts/feed_posts/Political Science.jsonl.gz",
+      "total_posts": 357,
+      "unique_post_ids": 357,
+      "unique_user_ids": 46,
+      "date_min": 202305010520,
+      "date_max": 202403182356,
+      "text_nonempty_count": 357,
+      "text_nonempty_ratio": 1.0,
+      "reply_to_nonempty_count": 0,
+      "quotes_nonempty_count": 231,
+      "like_count": {
+        "mean": 10.67,
+        "median": 6,
+        "max": 177
+      },
+      "reply_count": {
+        "mean": 1.67,
+        "median": 0,
+        "max": 56
+      },
+      "repost_count": {
+        "mean": 2.57,
+        "median": 1,
+        "max": 71
+      }
+    },
+    "Science": {
+      "feed_name": "Science",
+      "feed_path": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/feed_posts/feed_posts/Science.jsonl.gz",
+      "total_posts": 33831,
+      "unique_post_ids": 33491,
+      "unique_user_ids": 1716,
+      "date_min": 202305261953,
+      "date_max": 202403182331,
+      "text_nonempty_count": 33831,
+      "text_nonempty_ratio": 1.0,
+      "reply_to_nonempty_count": 4399,
+      "quotes_nonempty_count": 5063,
+      "like_count": {
+        "mean": 26.61,
+        "median": 10,
+        "max": 2503
+      },
+      "reply_count": {
+        "mean": 1.51,
+        "median": 1,
+        "max": 561
+      },
+      "repost_count": {
+        "mean": 6.0,
+        "median": 2,
+        "max": 1108
+      }
+    },
+    "What's History": {
+      "feed_name": "What's History",
+      "feed_path": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/feed_posts/feed_posts/What's History.jsonl.gz",
+      "total_posts": 161,
+      "unique_post_ids": 161,
+      "unique_user_ids": 71,
+      "date_min": 202403130142,
+      "date_max": 202403182357,
+      "text_nonempty_count": 161,
+      "text_nonempty_ratio": 1.0,
+      "reply_to_nonempty_count": 0,
+      "quotes_nonempty_count": 41,
+      "like_count": {
+        "mean": 15.02,
+        "median": 7,
+        "max": 268
+      },
+      "reply_count": {
+        "mean": 0.89,
+        "median": 0,
+        "max": 9
+      },
+      "repost_count": {
+        "mean": 4.63,
+        "median": 2,
+        "max": 142
+      }
+    }
+  },
+  "feed_results": {
+    "#Disability": {
+      "join_stats": {
+        "threads_with_at_least_1": 303,
+        "threads_with_at_least_2": 0,
+        "threads_with_at_least_3": 0,
+        "threads_with_at_least_5": 0,
+        "posts_matched_in_threads": 6,
+        "posts_matched_ratio": 0.0106,
+        "covered_unique_user_ids": 6
+      },
+      "condition_summaries": {
+        "condition_1": {
+          "candidate_thread_count": 278,
+          "thread_len": {
+            "mean": 77.68,
+            "median": 6.5,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 1,
+            "median": 1.0,
+            "max": 1
+          },
+          "join_coverage": {
+            "mean": 0.209,
+            "median": 0.15476190476190477
+          },
+          "unique_user_ids": 6,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_2": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_3": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_4": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_5": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_6": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        }
+      },
+      "agent_sampling": {
+        "candidate_user_count": 6,
+        "activity_score_distribution": {
+          "min": 2,
+          "max": 205,
+          "mean": 49.5,
+          "median": 16.5,
+          "p25": 5.0,
+          "p75": 52.0
+        },
+        "activity_tier_counts": {
+          "high": 2,
+          "middle": 0,
+          "low": 4
+        },
+        "stratified_sampling_targets": {
+          "high": 40,
+          "middle": 100,
+          "low": 60
+        },
+        "stratified_tier_sufficient": {
+          "high": false,
+          "middle": false,
+          "low": false
+        },
+        "can_stratified_sample_200_agents": false,
+        "gaps": [
+          "候选 user 6 < 200",
+          "high 层 2 人 < 目标 40 人",
+          "middle 层 0 人 < 目标 100 人",
+          "low 层 4 人 < 目标 60 人"
+        ],
+        "recommended_stratification": "high 20% / middle 50% / low 30%"
+      }
+    },
+    "#UkrainianView": {
+      "join_stats": {
+        "threads_with_at_least_1": 2374,
+        "threads_with_at_least_2": 14,
+        "threads_with_at_least_3": 2,
+        "threads_with_at_least_5": 0,
+        "posts_matched_in_threads": 176,
+        "posts_matched_ratio": 0.0839,
+        "covered_unique_user_ids": 53
+      },
+      "condition_summaries": {
+        "condition_1": {
+          "candidate_thread_count": 2145,
+          "thread_len": {
+            "mean": 21.18,
+            "median": 2,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 1.01,
+            "median": 1,
+            "max": 3
+          },
+          "join_coverage": {
+            "mean": 0.359,
+            "median": 0.5
+          },
+          "unique_user_ids": 50,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": true,
+          "sufficient_for_1000_threads": true,
+          "sufficient_for_2000_threads": true
+        },
+        "condition_2": {
+          "candidate_thread_count": 11,
+          "thread_len": {
+            "mean": 1213.18,
+            "median": 67,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 2.18,
+            "median": 2,
+            "max": 3
+          },
+          "join_coverage": {
+            "mean": 0.1199,
+            "median": 0.029850746268656716
+          },
+          "unique_user_ids": 3,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_3": {
+          "candidate_thread_count": 11,
+          "thread_len": {
+            "mean": 1213.18,
+            "median": 67,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 2.18,
+            "median": 2,
+            "max": 3
+          },
+          "join_coverage": {
+            "mean": 0.1199,
+            "median": 0.029850746268656716
+          },
+          "unique_user_ids": 3,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_4": {
+          "candidate_thread_count": 2,
+          "thread_len": {
+            "mean": 1022,
+            "median": 1022.0,
+            "max": 2037
+          },
+          "matched_post_count": {
+            "mean": 3,
+            "median": 3.0,
+            "max": 3
+          },
+          "join_coverage": {
+            "mean": 0.215,
+            "median": 0.2150220913107511
+          },
+          "unique_user_ids": 1,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_5": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_6": {
+          "candidate_thread_count": 1,
+          "thread_len": {
+            "mean": 2037,
+            "median": 2037,
+            "max": 2037
+          },
+          "matched_post_count": {
+            "mean": 3,
+            "median": 3,
+            "max": 3
+          },
+          "join_coverage": {
+            "mean": 0.0015,
+            "median": 0.0014727540500736377
+          },
+          "unique_user_ids": 1,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        }
+      },
+      "agent_sampling": {
+        "candidate_user_count": 50,
+        "activity_score_distribution": {
+          "min": 2,
+          "max": 1575,
+          "mean": 73,
+          "median": 14.0,
+          "p25": 7.0,
+          "p75": 44.0
+        },
+        "activity_tier_counts": {
+          "high": 10,
+          "middle": 5,
+          "low": 35
+        },
+        "stratified_sampling_targets": {
+          "high": 40,
+          "middle": 100,
+          "low": 60
+        },
+        "stratified_tier_sufficient": {
+          "high": false,
+          "middle": false,
+          "low": false
+        },
+        "can_stratified_sample_200_agents": false,
+        "gaps": [
+          "候选 user 50 < 200",
+          "high 层 10 人 < 目标 40 人",
+          "middle 层 5 人 < 目标 100 人",
+          "low 层 35 人 < 目标 60 人"
+        ],
+        "recommended_stratification": "high 20% / middle 50% / low 30%"
+      }
+    },
+    "AcademicSky": {
+      "join_stats": {
+        "threads_with_at_least_1": 18,
+        "threads_with_at_least_2": 0,
+        "threads_with_at_least_3": 0,
+        "threads_with_at_least_5": 0,
+        "posts_matched_in_threads": 4,
+        "posts_matched_ratio": 0.0044,
+        "covered_unique_user_ids": 4
+      },
+      "condition_summaries": {
+        "condition_1": {
+          "candidate_thread_count": 15,
+          "thread_len": {
+            "mean": 7.67,
+            "median": 4,
+            "max": 35
+          },
+          "matched_post_count": {
+            "mean": 1,
+            "median": 1,
+            "max": 1
+          },
+          "join_coverage": {
+            "mean": 0.3008,
+            "median": 0.25
+          },
+          "unique_user_ids": 4,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_2": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_3": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_4": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_5": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_6": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        }
+      },
+      "agent_sampling": {
+        "candidate_user_count": 4,
+        "activity_score_distribution": {
+          "min": 2,
+          "max": 18,
+          "mean": 7.25,
+          "median": 4.5,
+          "p25": 3.0,
+          "p75": 18.0
+        },
+        "activity_tier_counts": {
+          "high": 1,
+          "middle": 1,
+          "low": 2
+        },
+        "stratified_sampling_targets": {
+          "high": 40,
+          "middle": 100,
+          "low": 60
+        },
+        "stratified_tier_sufficient": {
+          "high": false,
+          "middle": false,
+          "low": false
+        },
+        "can_stratified_sample_200_agents": false,
+        "gaps": [
+          "候选 user 4 < 200",
+          "high 层 1 人 < 目标 40 人",
+          "middle 层 1 人 < 目标 100 人",
+          "low 层 2 人 < 目标 60 人"
+        ],
+        "recommended_stratification": "high 20% / middle 50% / low 30%"
+      }
+    },
+    "Blacksky": {
+      "join_stats": {
+        "threads_with_at_least_1": 101564,
+        "threads_with_at_least_2": 1069,
+        "threads_with_at_least_3": 69,
+        "threads_with_at_least_5": 3,
+        "posts_matched_in_threads": 1869,
+        "posts_matched_ratio": 0.0217,
+        "covered_unique_user_ids": 274
+      },
+      "condition_summaries": {
+        "condition_1": {
+          "candidate_thread_count": 96462,
+          "thread_len": {
+            "mean": 12.99,
+            "median": 3.0,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 1.01,
+            "median": 1.0,
+            "max": 15
+          },
+          "join_coverage": {
+            "mean": 0.3034,
+            "median": 0.3333333333333333
+          },
+          "unique_user_ids": 264,
+          "sufficient_for_200_agents": true,
+          "sufficient_for_500_threads": true,
+          "sufficient_for_1000_threads": true,
+          "sufficient_for_2000_threads": true
+        },
+        "condition_2": {
+          "candidate_thread_count": 988,
+          "thread_len": {
+            "mean": 170.17,
+            "median": 48.0,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 2.1,
+            "median": 2.0,
+            "max": 15
+          },
+          "join_coverage": {
+            "mean": 0.1618,
+            "median": 0.041666666666666664
+          },
+          "unique_user_ids": 119,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": true,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_3": {
+          "candidate_thread_count": 839,
+          "thread_len": {
+            "mean": 199.77,
+            "median": 78,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 2.11,
+            "median": 2,
+            "max": 15
+          },
+          "join_coverage": {
+            "mean": 0.0848,
+            "median": 0.02666666666666667
+          },
+          "unique_user_ids": 116,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": true,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_4": {
+          "candidate_thread_count": 66,
+          "thread_len": {
+            "mean": 785.76,
+            "median": 375.0,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 3.44,
+            "median": 3.0,
+            "max": 15
+          },
+          "join_coverage": {
+            "mean": 0.0157,
+            "median": 0.008721666188458876
+          },
+          "unique_user_ids": 64,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_5": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_6": {
+          "candidate_thread_count": 66,
+          "thread_len": {
+            "mean": 785.76,
+            "median": 375.0,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 3.44,
+            "median": 3.0,
+            "max": 15
+          },
+          "join_coverage": {
+            "mean": 0.0157,
+            "median": 0.008721666188458876
+          },
+          "unique_user_ids": 64,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        }
+      },
+      "agent_sampling": {
+        "candidate_user_count": 264,
+        "activity_score_distribution": {
+          "min": 2,
+          "max": 16816,
+          "mean": 585.94,
+          "median": 169.0,
+          "p25": 50.0,
+          "p75": 583.0
+        },
+        "activity_tier_counts": {
+          "high": 53,
+          "middle": 27,
+          "low": 184
+        },
+        "stratified_sampling_targets": {
+          "high": 40,
+          "middle": 100,
+          "low": 60
+        },
+        "stratified_tier_sufficient": {
+          "high": true,
+          "middle": false,
+          "low": true
+        },
+        "can_stratified_sample_200_agents": false,
+        "gaps": [
+          "middle 层 27 人 < 目标 100 人"
+        ],
+        "recommended_stratification": "high 20% / middle 50% / low 30%"
+      }
+    },
+    "BookSky": {
+      "join_stats": {
+        "threads_with_at_least_1": 56,
+        "threads_with_at_least_2": 0,
+        "threads_with_at_least_3": 0,
+        "threads_with_at_least_5": 0,
+        "posts_matched_in_threads": 6,
+        "posts_matched_ratio": 0.0094,
+        "covered_unique_user_ids": 5
+      },
+      "condition_summaries": {
+        "condition_1": {
+          "candidate_thread_count": 48,
+          "thread_len": {
+            "mean": 4.6,
+            "median": 2.0,
+            "max": 28
+          },
+          "matched_post_count": {
+            "mean": 1,
+            "median": 1.0,
+            "max": 1
+          },
+          "join_coverage": {
+            "mean": 0.3646,
+            "median": 0.5
+          },
+          "unique_user_ids": 5,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_2": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_3": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_4": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_5": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_6": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        }
+      },
+      "agent_sampling": {
+        "candidate_user_count": 5,
+        "activity_score_distribution": {
+          "min": 4,
+          "max": 33,
+          "mean": 16.4,
+          "median": 19.0,
+          "p25": 7.0,
+          "p75": 19.0
+        },
+        "activity_tier_counts": {
+          "high": 1,
+          "middle": 2,
+          "low": 2
+        },
+        "stratified_sampling_targets": {
+          "high": 40,
+          "middle": 100,
+          "low": 60
+        },
+        "stratified_tier_sufficient": {
+          "high": false,
+          "middle": false,
+          "low": false
+        },
+        "can_stratified_sample_200_agents": false,
+        "gaps": [
+          "候选 user 5 < 200",
+          "high 层 1 人 < 目标 40 人",
+          "middle 层 2 人 < 目标 100 人",
+          "low 层 2 人 < 目标 60 人"
+        ],
+        "recommended_stratification": "high 20% / middle 50% / low 30%"
+      }
+    },
+    "Game Dev": {
+      "join_stats": {
+        "threads_with_at_least_1": 120,
+        "threads_with_at_least_2": 0,
+        "threads_with_at_least_3": 0,
+        "threads_with_at_least_5": 0,
+        "posts_matched_in_threads": 5,
+        "posts_matched_ratio": 0.0079,
+        "covered_unique_user_ids": 4
+      },
+      "condition_summaries": {
+        "condition_1": {
+          "candidate_thread_count": 113,
+          "thread_len": {
+            "mean": 22.78,
+            "median": 8,
+            "max": 264
+          },
+          "matched_post_count": {
+            "mean": 1,
+            "median": 1,
+            "max": 1
+          },
+          "join_coverage": {
+            "mean": 0.1739,
+            "median": 0.125
+          },
+          "unique_user_ids": 4,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_2": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_3": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_4": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_5": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_6": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        }
+      },
+      "agent_sampling": {
+        "candidate_user_count": 4,
+        "activity_score_distribution": {
+          "min": 2,
+          "max": 114,
+          "mean": 30.5,
+          "median": 3.0,
+          "p25": 3.0,
+          "p75": 114.0
+        },
+        "activity_tier_counts": {
+          "high": 1,
+          "middle": 2,
+          "low": 1
+        },
+        "stratified_sampling_targets": {
+          "high": 40,
+          "middle": 100,
+          "low": 60
+        },
+        "stratified_tier_sufficient": {
+          "high": false,
+          "middle": false,
+          "low": false
+        },
+        "can_stratified_sample_200_agents": false,
+        "gaps": [
+          "候选 user 4 < 200",
+          "high 层 1 人 < 目标 40 人",
+          "middle 层 2 人 < 目标 100 人",
+          "low 层 1 人 < 目标 60 人"
+        ],
+        "recommended_stratification": "high 20% / middle 50% / low 30%"
+      }
+    },
+    "GreenSky": {
+      "join_stats": {
+        "threads_with_at_least_1": 453,
+        "threads_with_at_least_2": 0,
+        "threads_with_at_least_3": 0,
+        "threads_with_at_least_5": 0,
+        "posts_matched_in_threads": 16,
+        "posts_matched_ratio": 0.0243,
+        "covered_unique_user_ids": 11
+      },
+      "condition_summaries": {
+        "condition_1": {
+          "candidate_thread_count": 420,
+          "thread_len": {
+            "mean": 19.13,
+            "median": 3.0,
+            "max": 716
+          },
+          "matched_post_count": {
+            "mean": 1,
+            "median": 1.0,
+            "max": 1
+          },
+          "join_coverage": {
+            "mean": 0.3224,
+            "median": 0.3333333333333333
+          },
+          "unique_user_ids": 11,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_2": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_3": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_4": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_5": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_6": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        }
+      },
+      "agent_sampling": {
+        "candidate_user_count": 11,
+        "activity_score_distribution": {
+          "min": 2,
+          "max": 188,
+          "mean": 44.64,
+          "median": 9.0,
+          "p25": 7.0,
+          "p75": 54.0
+        },
+        "activity_tier_counts": {
+          "high": 3,
+          "middle": 1,
+          "low": 7
+        },
+        "stratified_sampling_targets": {
+          "high": 40,
+          "middle": 100,
+          "low": 60
+        },
+        "stratified_tier_sufficient": {
+          "high": false,
+          "middle": false,
+          "low": false
+        },
+        "can_stratified_sample_200_agents": false,
+        "gaps": [
+          "候选 user 11 < 200",
+          "high 层 3 人 < 目标 40 人",
+          "middle 层 1 人 < 目标 100 人",
+          "low 层 7 人 < 目标 60 人"
+        ],
+        "recommended_stratification": "high 20% / middle 50% / low 30%"
+      }
+    },
+    "News": {
+      "join_stats": {
+        "threads_with_at_least_1": 56889,
+        "threads_with_at_least_2": 788,
+        "threads_with_at_least_3": 76,
+        "threads_with_at_least_5": 7,
+        "posts_matched_in_threads": 1311,
+        "posts_matched_ratio": 0.0315,
+        "covered_unique_user_ids": 46
+      },
+      "condition_summaries": {
+        "condition_1": {
+          "candidate_thread_count": 54039,
+          "thread_len": {
+            "mean": 15.05,
+            "median": 4,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 1.02,
+            "median": 1,
+            "max": 10
+          },
+          "join_coverage": {
+            "mean": 0.2817,
+            "median": 0.25
+          },
+          "unique_user_ids": 45,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": true,
+          "sufficient_for_1000_threads": true,
+          "sufficient_for_2000_threads": true
+        },
+        "condition_2": {
+          "candidate_thread_count": 677,
+          "thread_len": {
+            "mean": 127.27,
+            "median": 13,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 2.16,
+            "median": 2,
+            "max": 10
+          },
+          "join_coverage": {
+            "mean": 0.2385,
+            "median": 0.15789473684210525
+          },
+          "unique_user_ids": 25,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": true,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_3": {
+          "candidate_thread_count": 539,
+          "thread_len": {
+            "mean": 158.98,
+            "median": 25,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 2.18,
+            "median": 2,
+            "max": 10
+          },
+          "join_coverage": {
+            "mean": 0.141,
+            "median": 0.08695652173913043
+          },
+          "unique_user_ids": 24,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": true,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_4": {
+          "candidate_thread_count": 65,
+          "thread_len": {
+            "mean": 372.38,
+            "median": 24,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 3.48,
+            "median": 3,
+            "max": 10
+          },
+          "join_coverage": {
+            "mean": 0.1969,
+            "median": 0.14285714285714285
+          },
+          "unique_user_ids": 13,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_5": {
+          "candidate_thread_count": 7,
+          "thread_len": {
+            "mean": 5.71,
+            "median": 5,
+            "max": 7
+          },
+          "matched_post_count": {
+            "mean": 3.29,
+            "median": 3,
+            "max": 4
+          },
+          "join_coverage": {
+            "mean": 0.5776,
+            "median": 0.6
+          },
+          "unique_user_ids": 5,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_6": {
+          "candidate_thread_count": 53,
+          "thread_len": {
+            "mean": 455.19,
+            "median": 31,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 3.55,
+            "median": 3,
+            "max": 10
+          },
+          "join_coverage": {
+            "mean": 0.1294,
+            "median": 0.12
+          },
+          "unique_user_ids": 13,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        }
+      },
+      "agent_sampling": {
+        "candidate_user_count": 45,
+        "activity_score_distribution": {
+          "min": 13,
+          "max": 15692,
+          "mean": 2094.73,
+          "median": 490.0,
+          "p25": 167.0,
+          "p75": 1790.0
+        },
+        "activity_tier_counts": {
+          "high": 9,
+          "middle": 5,
+          "low": 31
+        },
+        "stratified_sampling_targets": {
+          "high": 40,
+          "middle": 100,
+          "low": 60
+        },
+        "stratified_tier_sufficient": {
+          "high": false,
+          "middle": false,
+          "low": false
+        },
+        "can_stratified_sample_200_agents": false,
+        "gaps": [
+          "候选 user 45 < 200",
+          "high 层 9 人 < 目标 40 人",
+          "middle 层 5 人 < 目标 100 人",
+          "low 层 31 人 < 目标 60 人"
+        ],
+        "recommended_stratification": "high 20% / middle 50% / low 30%"
+      }
+    },
+    "Political Science": {
+      "join_stats": {
+        "threads_with_at_least_1": 15,
+        "threads_with_at_least_2": 0,
+        "threads_with_at_least_3": 0,
+        "threads_with_at_least_5": 0,
+        "posts_matched_in_threads": 3,
+        "posts_matched_ratio": 0.0084,
+        "covered_unique_user_ids": 2
+      },
+      "condition_summaries": {
+        "condition_1": {
+          "candidate_thread_count": 13,
+          "thread_len": {
+            "mean": 3.31,
+            "median": 2,
+            "max": 9
+          },
+          "matched_post_count": {
+            "mean": 1,
+            "median": 1,
+            "max": 1
+          },
+          "join_coverage": {
+            "mean": 0.3791,
+            "median": 0.5
+          },
+          "unique_user_ids": 2,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_2": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_3": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_4": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_5": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_6": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        }
+      },
+      "agent_sampling": {
+        "candidate_user_count": 2,
+        "activity_score_distribution": {
+          "min": 7,
+          "max": 295,
+          "mean": 151,
+          "median": 151.0,
+          "p25": 7.0,
+          "p75": 295.0
+        },
+        "activity_tier_counts": {
+          "high": 1,
+          "middle": 0,
+          "low": 1
+        },
+        "stratified_sampling_targets": {
+          "high": 40,
+          "middle": 100,
+          "low": 60
+        },
+        "stratified_tier_sufficient": {
+          "high": false,
+          "middle": false,
+          "low": false
+        },
+        "can_stratified_sample_200_agents": false,
+        "gaps": [
+          "候选 user 2 < 200",
+          "high 层 1 人 < 目标 40 人",
+          "middle 层 0 人 < 目标 100 人",
+          "low 层 1 人 < 目标 60 人"
+        ],
+        "recommended_stratification": "high 20% / middle 50% / low 30%"
+      }
+    },
+    "Science": {
+      "join_stats": {
+        "threads_with_at_least_1": 50494,
+        "threads_with_at_least_2": 428,
+        "threads_with_at_least_3": 18,
+        "threads_with_at_least_5": 2,
+        "posts_matched_in_threads": 901,
+        "posts_matched_ratio": 0.0269,
+        "covered_unique_user_ids": 305
+      },
+      "condition_summaries": {
+        "condition_1": {
+          "candidate_thread_count": 48866,
+          "thread_len": {
+            "mean": 13.68,
+            "median": 4.0,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 1.01,
+            "median": 1.0,
+            "max": 5
+          },
+          "join_coverage": {
+            "mean": 0.2797,
+            "median": 0.25
+          },
+          "unique_user_ids": 296,
+          "sufficient_for_200_agents": true,
+          "sufficient_for_500_threads": true,
+          "sufficient_for_1000_threads": true,
+          "sufficient_for_2000_threads": true
+        },
+        "condition_2": {
+          "candidate_thread_count": 419,
+          "thread_len": {
+            "mean": 128.65,
+            "median": 34,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 2.05,
+            "median": 2,
+            "max": 5
+          },
+          "join_coverage": {
+            "mean": 0.1155,
+            "median": 0.06060606060606061
+          },
+          "unique_user_ids": 89,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_3": {
+          "candidate_thread_count": 403,
+          "thread_len": {
+            "mean": 133.62,
+            "median": 37,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 2.05,
+            "median": 2,
+            "max": 5
+          },
+          "join_coverage": {
+            "mean": 0.0974,
+            "median": 0.05405405405405406
+          },
+          "unique_user_ids": 86,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_4": {
+          "candidate_thread_count": 18,
+          "thread_len": {
+            "mean": 969.33,
+            "median": 232.0,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 3.22,
+            "median": 3.0,
+            "max": 5
+          },
+          "join_coverage": {
+            "mean": 0.0699,
+            "median": 0.012939689149996282
+          },
+          "unique_user_ids": 29,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_5": {
+          "candidate_thread_count": 1,
+          "thread_len": {
+            "mean": 5,
+            "median": 5,
+            "max": 5
+          },
+          "matched_post_count": {
+            "mean": 3,
+            "median": 3,
+            "max": 3
+          },
+          "join_coverage": {
+            "mean": 0.6,
+            "median": 0.6
+          },
+          "unique_user_ids": 3,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_6": {
+          "candidate_thread_count": 17,
+          "thread_len": {
+            "mean": 1026.06,
+            "median": 238,
+            "max": 10808
+          },
+          "matched_post_count": {
+            "mean": 3.24,
+            "median": 3,
+            "max": 5
+          },
+          "join_coverage": {
+            "mean": 0.0387,
+            "median": 0.012605042016806723
+          },
+          "unique_user_ids": 29,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        }
+      },
+      "agent_sampling": {
+        "candidate_user_count": 296,
+        "activity_score_distribution": {
+          "min": 2,
+          "max": 6387,
+          "mean": 236.33,
+          "median": 57.5,
+          "p25": 25.0,
+          "p75": 161.0
+        },
+        "activity_tier_counts": {
+          "high": 60,
+          "middle": 29,
+          "low": 207
+        },
+        "stratified_sampling_targets": {
+          "high": 40,
+          "middle": 100,
+          "low": 60
+        },
+        "stratified_tier_sufficient": {
+          "high": true,
+          "middle": false,
+          "low": true
+        },
+        "can_stratified_sample_200_agents": false,
+        "gaps": [
+          "middle 层 29 人 < 目标 100 人"
+        ],
+        "recommended_stratification": "high 20% / middle 50% / low 30%"
+      }
+    },
+    "What's History": {
+      "join_stats": {
+        "threads_with_at_least_1": 70,
+        "threads_with_at_least_2": 0,
+        "threads_with_at_least_3": 0,
+        "threads_with_at_least_5": 0,
+        "posts_matched_in_threads": 5,
+        "posts_matched_ratio": 0.0311,
+        "covered_unique_user_ids": 5
+      },
+      "condition_summaries": {
+        "condition_1": {
+          "candidate_thread_count": 69,
+          "thread_len": {
+            "mean": 8.8,
+            "median": 5,
+            "max": 63
+          },
+          "matched_post_count": {
+            "mean": 1,
+            "median": 1,
+            "max": 1
+          },
+          "join_coverage": {
+            "mean": 0.2507,
+            "median": 0.2
+          },
+          "unique_user_ids": 5,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_2": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_3": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_4": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_5": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        },
+        "condition_6": {
+          "candidate_thread_count": 0,
+          "thread_len": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "matched_post_count": {
+            "mean": null,
+            "median": null,
+            "max": null
+          },
+          "join_coverage": {
+            "mean": null,
+            "median": null
+          },
+          "unique_user_ids": 0,
+          "sufficient_for_200_agents": false,
+          "sufficient_for_500_threads": false,
+          "sufficient_for_1000_threads": false,
+          "sufficient_for_2000_threads": false
+        }
+      },
+      "agent_sampling": {
+        "candidate_user_count": 5,
+        "activity_score_distribution": {
+          "min": 3,
+          "max": 43,
+          "mean": 16,
+          "median": 11.0,
+          "p25": 3.0,
+          "p75": 20.0
+        },
+        "activity_tier_counts": {
+          "high": 1,
+          "middle": 1,
+          "low": 3
+        },
+        "stratified_sampling_targets": {
+          "high": 40,
+          "middle": 100,
+          "low": 60
+        },
+        "stratified_tier_sufficient": {
+          "high": false,
+          "middle": false,
+          "low": false
+        },
+        "can_stratified_sample_200_agents": false,
+        "gaps": [
+          "候选 user 5 < 200",
+          "high 层 1 人 < 目标 40 人",
+          "middle 层 1 人 < 目标 100 人",
+          "low 层 3 人 < 目标 60 人"
+        ],
+        "recommended_stratification": "high 20% / middle 50% / low 30%"
+      }
+    }
+  },
+  "ranking": [
+    {
+      "feed_name": "Blacksky",
+      "recommended_condition": "condition_2",
+      "candidate_threads": 988,
+      "unique_users": 119,
+      "join_coverage": 0.0217,
+      "text_nonempty_ratio": 0.9875,
+      "matched_post_count_median": 2.0,
+      "thread_len_median": 48.0,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": true,
+      "sufficient_1000_threads": false,
+      "sufficient_2000_threads": false,
+      "can_stratified_sample_200": false,
+      "reason": "users=119<200; threads>=500; join=2.17%",
+      "rank": 1
+    },
+    {
+      "feed_name": "News",
+      "recommended_condition": "condition_2",
+      "candidate_threads": 677,
+      "unique_users": 25,
+      "join_coverage": 0.0315,
+      "text_nonempty_ratio": 0.9888,
+      "matched_post_count_median": 2,
+      "thread_len_median": 13,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": true,
+      "sufficient_1000_threads": false,
+      "sufficient_2000_threads": false,
+      "can_stratified_sample_200": false,
+      "reason": "users=25<200; threads>=500; join=3.15%",
+      "rank": 2
+    },
+    {
+      "feed_name": "Science",
+      "recommended_condition": "condition_2",
+      "candidate_threads": 419,
+      "unique_users": 89,
+      "join_coverage": 0.0269,
+      "text_nonempty_ratio": 1.0,
+      "matched_post_count_median": 2,
+      "thread_len_median": 34,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": false,
+      "sufficient_1000_threads": false,
+      "sufficient_2000_threads": false,
+      "can_stratified_sample_200": false,
+      "reason": "users=89<200; threads=419<500; join=2.69%",
+      "rank": 3
+    },
+    {
+      "feed_name": "#UkrainianView",
+      "recommended_condition": "condition_2",
+      "candidate_threads": 11,
+      "unique_users": 3,
+      "join_coverage": 0.0839,
+      "text_nonempty_ratio": 0.9995,
+      "matched_post_count_median": 2,
+      "thread_len_median": 67,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": false,
+      "sufficient_1000_threads": false,
+      "sufficient_2000_threads": false,
+      "can_stratified_sample_200": false,
+      "reason": "users=3<200; threads=11<500; join=8.39%",
+      "rank": 4
+    },
+    {
+      "feed_name": "What's History",
+      "recommended_condition": "condition_2",
+      "candidate_threads": 0,
+      "unique_users": 0,
+      "join_coverage": 0.0311,
+      "text_nonempty_ratio": 1.0,
+      "matched_post_count_median": 0,
+      "thread_len_median": 0,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": false,
+      "sufficient_1000_threads": false,
+      "sufficient_2000_threads": false,
+      "can_stratified_sample_200": false,
+      "reason": "users=0<200; threads=0<500; join=3.11%",
+      "rank": 5
+    },
+    {
+      "feed_name": "GreenSky",
+      "recommended_condition": "condition_2",
+      "candidate_threads": 0,
+      "unique_users": 0,
+      "join_coverage": 0.0243,
+      "text_nonempty_ratio": 1.0,
+      "matched_post_count_median": 0,
+      "thread_len_median": 0,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": false,
+      "sufficient_1000_threads": false,
+      "sufficient_2000_threads": false,
+      "can_stratified_sample_200": false,
+      "reason": "users=0<200; threads=0<500; join=2.43%",
+      "rank": 6
+    },
+    {
+      "feed_name": "#Disability",
+      "recommended_condition": "condition_2",
+      "candidate_threads": 0,
+      "unique_users": 0,
+      "join_coverage": 0.0106,
+      "text_nonempty_ratio": 1.0,
+      "matched_post_count_median": 0,
+      "thread_len_median": 0,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": false,
+      "sufficient_1000_threads": false,
+      "sufficient_2000_threads": false,
+      "can_stratified_sample_200": false,
+      "reason": "users=0<200; threads=0<500; join=1.06%",
+      "rank": 7
+    },
+    {
+      "feed_name": "BookSky",
+      "recommended_condition": "condition_2",
+      "candidate_threads": 0,
+      "unique_users": 0,
+      "join_coverage": 0.0094,
+      "text_nonempty_ratio": 1.0,
+      "matched_post_count_median": 0,
+      "thread_len_median": 0,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": false,
+      "sufficient_1000_threads": false,
+      "sufficient_2000_threads": false,
+      "can_stratified_sample_200": false,
+      "reason": "users=0<200; threads=0<500; join=0.94%",
+      "rank": 8
+    },
+    {
+      "feed_name": "Political Science",
+      "recommended_condition": "condition_2",
+      "candidate_threads": 0,
+      "unique_users": 0,
+      "join_coverage": 0.0084,
+      "text_nonempty_ratio": 1.0,
+      "matched_post_count_median": 0,
+      "thread_len_median": 0,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": false,
+      "sufficient_1000_threads": false,
+      "sufficient_2000_threads": false,
+      "can_stratified_sample_200": false,
+      "reason": "users=0<200; threads=0<500; join=0.84%",
+      "rank": 9
+    },
+    {
+      "feed_name": "Game Dev",
+      "recommended_condition": "condition_2",
+      "candidate_threads": 0,
+      "unique_users": 0,
+      "join_coverage": 0.0079,
+      "text_nonempty_ratio": 1.0,
+      "matched_post_count_median": 0,
+      "thread_len_median": 0,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": false,
+      "sufficient_1000_threads": false,
+      "sufficient_2000_threads": false,
+      "can_stratified_sample_200": false,
+      "reason": "users=0<200; threads=0<500; join=0.79%",
+      "rank": 10
+    },
+    {
+      "feed_name": "AcademicSky",
+      "recommended_condition": "condition_2",
+      "candidate_threads": 0,
+      "unique_users": 0,
+      "join_coverage": 0.0044,
+      "text_nonempty_ratio": 1.0,
+      "matched_post_count_median": 0,
+      "thread_len_median": 0,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": false,
+      "sufficient_1000_threads": false,
+      "sufficient_2000_threads": false,
+      "can_stratified_sample_200": false,
+      "reason": "users=0<200; threads=0<500; join=0.44%",
+      "rank": 11
+    }
+  ],
+  "merged_results": [
+    {
+      "merge_name": "Science + AcademicSky",
+      "feeds_included": "Science + AcademicSky",
+      "total_posts": 34744,
+      "unique_post_ids": 34369,
+      "unique_user_ids": 2024,
+      "posts_matched_in_threads": 904,
+      "join_coverage": 0.0263,
+      "condition_2": {
+        "candidate_thread_count": 419,
+        "thread_len": {
+          "mean": 128.65,
+          "median": 34,
+          "max": 10808
+        },
+        "matched_post_count": {
+          "mean": 2.05,
+          "median": 2,
+          "max": 5
+        },
+        "join_coverage": {
+          "mean": 0.1155,
+          "median": 0.06060606060606061
+        },
+        "unique_user_ids": 89,
+        "sufficient_for_200_agents": false,
+        "sufficient_for_500_threads": false,
+        "sufficient_for_1000_threads": false,
+        "sufficient_for_2000_threads": false
+      },
+      "condition_3": {
+        "candidate_thread_count": 403,
+        "thread_len": {
+          "mean": 133.62,
+          "median": 37,
+          "max": 10808
+        },
+        "matched_post_count": {
+          "mean": 2.05,
+          "median": 2,
+          "max": 5
+        },
+        "join_coverage": {
+          "mean": 0.0974,
+          "median": 0.05405405405405406
+        },
+        "unique_user_ids": 86,
+        "sufficient_for_200_agents": false,
+        "sufficient_for_500_threads": false,
+        "sufficient_for_1000_threads": false,
+        "sufficient_for_2000_threads": false
+      },
+      "cond2_threads": 419,
+      "cond2_users": 89,
+      "cond3_threads": 403,
+      "cond3_users": 86,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": false,
+      "sufficient_1000_threads": false,
+      "sufficient_2000_threads": false
+    },
+    {
+      "merge_name": "Science + News",
+      "feeds_included": "Science + News",
+      "total_posts": 75943,
+      "unique_post_ids": 75148,
+      "unique_user_ids": 1789,
+      "posts_matched_in_threads": 2211,
+      "join_coverage": 0.0294,
+      "condition_2": {
+        "candidate_thread_count": 1575,
+        "thread_len": {
+          "mean": 114.43,
+          "median": 28,
+          "max": 10808
+        },
+        "matched_post_count": {
+          "mean": 2.14,
+          "median": 2,
+          "max": 15
+        },
+        "join_coverage": {
+          "mean": 0.1641,
+          "median": 0.07407407407407407
+        },
+        "unique_user_ids": 137,
+        "sufficient_for_200_agents": false,
+        "sufficient_for_500_threads": true,
+        "sufficient_for_1000_threads": true,
+        "sufficient_for_2000_threads": false
+      },
+      "condition_3": {
+        "candidate_thread_count": 1401,
+        "thread_len": {
+          "mean": 128.22,
+          "median": 36,
+          "max": 10808
+        },
+        "matched_post_count": {
+          "mean": 2.15,
+          "median": 2,
+          "max": 15
+        },
+        "join_coverage": {
+          "mean": 0.1088,
+          "median": 0.058823529411764705
+        },
+        "unique_user_ids": 133,
+        "sufficient_for_200_agents": false,
+        "sufficient_for_500_threads": true,
+        "sufficient_for_1000_threads": true,
+        "sufficient_for_2000_threads": false
+      },
+      "cond2_threads": 1575,
+      "cond2_users": 137,
+      "cond3_threads": 1401,
+      "cond3_users": 133,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": true,
+      "sufficient_1000_threads": true,
+      "sufficient_2000_threads": false
+    },
+    {
+      "merge_name": "AcademicSky + Science + News",
+      "feeds_included": "AcademicSky + Science + News",
+      "total_posts": 76856,
+      "unique_post_ids": 76026,
+      "unique_user_ids": 2097,
+      "posts_matched_in_threads": 2214,
+      "join_coverage": 0.0291,
+      "condition_2": {
+        "candidate_thread_count": 1575,
+        "thread_len": {
+          "mean": 114.43,
+          "median": 28,
+          "max": 10808
+        },
+        "matched_post_count": {
+          "mean": 2.14,
+          "median": 2,
+          "max": 15
+        },
+        "join_coverage": {
+          "mean": 0.1641,
+          "median": 0.07407407407407407
+        },
+        "unique_user_ids": 137,
+        "sufficient_for_200_agents": false,
+        "sufficient_for_500_threads": true,
+        "sufficient_for_1000_threads": true,
+        "sufficient_for_2000_threads": false
+      },
+      "condition_3": {
+        "candidate_thread_count": 1401,
+        "thread_len": {
+          "mean": 128.22,
+          "median": 36,
+          "max": 10808
+        },
+        "matched_post_count": {
+          "mean": 2.15,
+          "median": 2,
+          "max": 15
+        },
+        "join_coverage": {
+          "mean": 0.1088,
+          "median": 0.058823529411764705
+        },
+        "unique_user_ids": 133,
+        "sufficient_for_200_agents": false,
+        "sufficient_for_500_threads": true,
+        "sufficient_for_1000_threads": true,
+        "sufficient_for_2000_threads": false
+      },
+      "cond2_threads": 1575,
+      "cond2_users": 137,
+      "cond3_threads": 1401,
+      "cond3_users": 133,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": true,
+      "sufficient_1000_threads": true,
+      "sufficient_2000_threads": false
+    },
+    {
+      "merge_name": "Blacksky",
+      "feeds_included": "Blacksky",
+      "total_posts": 86490,
+      "unique_post_ids": 86299,
+      "unique_user_ids": 1564,
+      "posts_matched_in_threads": 1869,
+      "join_coverage": 0.0217,
+      "condition_2": {
+        "candidate_thread_count": 988,
+        "thread_len": {
+          "mean": 170.17,
+          "median": 48.0,
+          "max": 10808
+        },
+        "matched_post_count": {
+          "mean": 2.1,
+          "median": 2.0,
+          "max": 15
+        },
+        "join_coverage": {
+          "mean": 0.1618,
+          "median": 0.041666666666666664
+        },
+        "unique_user_ids": 119,
+        "sufficient_for_200_agents": false,
+        "sufficient_for_500_threads": true,
+        "sufficient_for_1000_threads": false,
+        "sufficient_for_2000_threads": false
+      },
+      "condition_3": {
+        "candidate_thread_count": 839,
+        "thread_len": {
+          "mean": 199.77,
+          "median": 78,
+          "max": 10808
+        },
+        "matched_post_count": {
+          "mean": 2.11,
+          "median": 2,
+          "max": 15
+        },
+        "join_coverage": {
+          "mean": 0.0848,
+          "median": 0.02666666666666667
+        },
+        "unique_user_ids": 116,
+        "sufficient_for_200_agents": false,
+        "sufficient_for_500_threads": true,
+        "sufficient_for_1000_threads": false,
+        "sufficient_for_2000_threads": false
+      },
+      "cond2_threads": 988,
+      "cond2_users": 119,
+      "cond3_threads": 839,
+      "cond3_users": 116,
+      "sufficient_200_agents": false,
+      "sufficient_500_threads": true,
+      "sufficient_1000_threads": false,
+      "sufficient_2000_threads": false
+    },
+    {
+      "merge_name": "All feeds merged",
+      "feeds_included": "#Disability + #UkrainianView + AcademicSky + Blacksky + BookSky + Game Dev + GreenSky + News + Political Science + Science + What's History",
+      "total_posts": 168463,
+      "unique_post_ids": 167368,
+      "unique_user_ids": 5237,
+      "posts_matched_in_threads": 4299,
+      "join_coverage": 0.0257,
+      "condition_2": {
+        "candidate_thread_count": 4009,
+        "thread_len": {
+          "mean": 112.64,
+          "median": 34,
+          "max": 10808
+        },
+        "matched_post_count": {
+          "mean": 2.17,
+          "median": 2,
+          "max": 33
+        },
+        "join_coverage": {
+          "mean": 0.1516,
+          "median": 0.06060606060606061
+        },
+        "unique_user_ids": 308,
+        "sufficient_for_200_agents": true,
+        "sufficient_for_500_threads": true,
+        "sufficient_for_1000_threads": true,
+        "sufficient_for_2000_threads": true
+      },
+      "condition_3": {
+        "candidate_thread_count": 3569,
+        "thread_len": {
+          "mean": 126.1,
+          "median": 45,
+          "max": 10808
+        },
+        "matched_post_count": {
+          "mean": 2.19,
+          "median": 2,
+          "max": 33
+        },
+        "join_coverage": {
+          "mean": 0.0968,
+          "median": 0.046511627906976744
+        },
+        "unique_user_ids": 300,
+        "sufficient_for_200_agents": true,
+        "sufficient_for_500_threads": true,
+        "sufficient_for_1000_threads": true,
+        "sufficient_for_2000_threads": true
+      },
+      "cond2_threads": 4009,
+      "cond2_users": 308,
+      "cond3_threads": 3569,
+      "cond3_users": 300,
+      "sufficient_200_agents": true,
+      "sufficient_500_threads": true,
+      "sufficient_1000_threads": true,
+      "sufficient_2000_threads": true
+    }
+  ],
+  "conclusion": {
+    "top_recommended_feed": "All feeds merged",
+    "best_single_feed_partial": "Blacksky",
+    "viable_single_feeds": [],
+    "backup_feeds": [
+      "News",
+      "Science",
+      "#UkrainianView"
+    ],
+    "not_recommended_feeds": [
+      "#UkrainianView",
+      "What's History",
+      "GreenSky",
+      "#Disability",
+      "BookSky",
+      "Political Science",
+      "Game Dev",
+      "AcademicSky"
+    ],
+    "best_merged_plan": "All feeds merged",
+    "single_feed_feasible": false,
+    "merged_feed_feasible": true,
+    "mf_dag_main_experiment_feasible": true,
+    "retreat_options": [
+      "无单 feed 在 condition_2/3 下同时满足 200 agents + 500 threads。",
+      "最佳单 feed 为 Blacksky（cond2: 988 threads, 119 users），需合并其他 feed 或扩展 user 池。",
+      "推荐合并方案：All feeds merged（cond2: 4009 threads, 308 users）。"
+    ]
+  }
+}

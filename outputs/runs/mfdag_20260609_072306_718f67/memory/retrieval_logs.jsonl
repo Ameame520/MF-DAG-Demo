@@ -1,0 +1,6 @@
+{"thread_id": "2223612", "step_id": 0, "cohort_id": "C0", "global_memory_ids": [], "cohort_memory_ids": []}
+{"thread_id": "2223612", "step_id": 0, "cohort_id": "C1", "global_memory_ids": [], "cohort_memory_ids": []}
+{"thread_id": "7845281", "step_id": 0, "cohort_id": "C0", "global_memory_ids": ["3565298d-1cf8-488f-9cf1-c9b847c8260d"], "cohort_memory_ids": ["e3944653-e097-4a39-89d9-16498957a5ef"]}
+{"thread_id": "7845281", "step_id": 0, "cohort_id": "C1", "global_memory_ids": ["3565298d-1cf8-488f-9cf1-c9b847c8260d"], "cohort_memory_ids": ["c9345bab-dce8-4ede-b21a-30673892816d"]}
+{"thread_id": "47139411", "step_id": 0, "cohort_id": "C0", "global_memory_ids": ["3565298d-1cf8-488f-9cf1-c9b847c8260d", "094b4ce7-7aa7-426a-acf8-600bc9669f73"], "cohort_memory_ids": ["e3944653-e097-4a39-89d9-16498957a5ef", "893d5e2f-95a1-4564-bea9-735e0141dc50"]}
+{"thread_id": "47139411", "step_id": 0, "cohort_id": "C1", "global_memory_ids": ["3565298d-1cf8-488f-9cf1-c9b847c8260d", "094b4ce7-7aa7-426a-acf8-600bc9669f73"], "cohort_memory_ids": ["c9345bab-dce8-4ede-b21a-30673892816d", "3c474cef-043f-4ac4-829b-e6581ad19557"]}

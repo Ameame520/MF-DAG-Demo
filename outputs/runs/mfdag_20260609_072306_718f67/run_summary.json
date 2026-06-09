@@ -1,0 +1,15 @@
+{
+  "run_id": "mfdag_20260609_072306_718f67",
+  "method": "mfdag",
+  "threads_processed": 3,
+  "eval_threads": 1,
+  "agents": 20,
+  "cohorts": 2,
+  "runtime_s": 46.9,
+  "llm_calls": 6,
+  "input_tokens": 3523,
+  "output_tokens": 3815,
+  "total_tokens": 7338,
+  "total_latency_s": 46.8767,
+  "avg_latency_s": 7.8128
+}

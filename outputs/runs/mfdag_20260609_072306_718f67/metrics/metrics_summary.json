@@ -1,0 +1,26 @@
+{
+  "run_id": "mfdag_20260609_072306_718f67",
+  "method": "mfdag",
+  "efficiency_metrics": {
+    "method": "mfdag",
+    "llm_calls": 6,
+    "input_tokens": 3523,
+    "output_tokens": 3815,
+    "total_tokens": 7338,
+    "runtime_s": 46.9,
+    "threads_processed": 3,
+    "avg_runtime_per_thread": 15.6333
+  },
+  "propagation_metrics": {
+    "eval_steps": 1,
+    "continuation_size_mae": 2.0,
+    "continuation_size_rmse": 2.0,
+    "user_f1_mean": 0.0,
+    "user_recall_mean": 0.0
+  },
+  "cohort_metrics": {
+    "cohort_js_distance_mean": 0.0,
+    "cohort_kl_distance_mean": 0.0,
+    "eval_steps": 1
+  }
+}

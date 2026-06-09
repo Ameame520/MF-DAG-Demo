@@ -1,0 +1,2 @@
+{"call_id": "844b0a7a-138e-4643-8277-6b082804e2a6", "method": "mfdag", "model": "deepseek-v4-flash", "input_tokens": 578, "output_tokens": 416, "latency_s": 5.263, "prompt_chars": 1843, "response_chars": 624, "thread_id": "2223612", "step_id": 0, "cohort_id": "C4"}
+{"call_id": "83b876a6-19ce-4a90-9729-6a8178e8ade4", "method": "mfdag", "model": "deepseek-v4-flash", "input_tokens": 647, "output_tokens": 800, "latency_s": 9.875, "prompt_chars": 2011, "response_chars": 0, "thread_id": "7845281", "step_id": 0, "cohort_id": "C4"}

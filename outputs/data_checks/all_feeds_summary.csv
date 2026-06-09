@@ -1,0 +1,12 @@
+feed_name,total_posts,unique_post_ids,unique_user_ids,date_min,date_max,text_nonempty_ratio,posts_matched_in_threads,posts_matched_ratio,covered_unique_user_ids,threads_hit_ge1,threads_hit_ge2,threads_hit_ge3,threads_hit_ge5,cond2_threads,cond2_users,cond3_threads,cond3_users,cond1_threads,cond1_users,can_sample_200_agents,recommended_condition
+#Disability,566,566,411,202307270630,202403182351,1.0,6,0.0106,6,303,0,0,0,0,0,0,0,278,6,False,condition_1
+#UkrainianView,2098,2097,172,202307051127,202403182219,0.9995,176,0.0839,53,2374,14,2,0,11,3,11,3,2145,50,False,condition_1
+AcademicSky,913,913,352,202402142113,202403182317,1.0,4,0.0044,4,18,0,0,0,0,0,0,0,15,4,False,condition_1
+Blacksky,86490,86299,1564,202309240136,202403182357,0.9875,1869,0.0217,274,101564,1069,69,3,988,119,839,116,96462,264,False,condition_2
+BookSky,638,638,275,202312172253,202403182315,1.0,6,0.0094,5,56,0,0,0,0,0,0,0,48,5,False,condition_1
+Game Dev,635,635,504,202403161455,202403182357,1.0,5,0.0079,4,120,0,0,0,0,0,0,0,113,4,False,condition_1
+GreenSky,662,658,190,202403150900,202403182359,1.0,16,0.0243,11,453,0,0,0,0,0,0,0,420,11,False,condition_1
+News,42112,41685,75,202302200227,202403182341,0.9888,1311,0.0315,46,56889,788,76,7,677,25,539,24,54039,45,False,condition_2
+Political Science,357,357,46,202305010520,202403182356,1.0,3,0.0084,2,15,0,0,0,0,0,0,0,13,2,False,condition_1
+Science,33831,33491,1716,202305261953,202403182331,1.0,901,0.0269,305,50494,428,18,2,419,89,403,86,48866,296,False,condition_1
+What's History,161,161,71,202403130142,202403182357,1.0,5,0.0311,5,70,0,0,0,0,0,0,0,69,5,False,condition_1

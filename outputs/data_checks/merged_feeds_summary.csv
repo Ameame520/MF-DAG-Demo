@@ -1,0 +1,6 @@
+merge_name,feeds_included,total_posts,unique_post_ids,unique_user_ids,posts_matched_in_threads,join_coverage,cond2_threads,cond2_users,cond3_threads,cond3_users,sufficient_200_agents,sufficient_500_threads,sufficient_1000_threads,sufficient_2000_threads
+Science + AcademicSky,Science + AcademicSky,34744,34369,2024,904,0.0263,419,89,403,86,False,False,False,False
+Science + News,Science + News,75943,75148,1789,2211,0.0294,1575,137,1401,133,False,True,True,False
+AcademicSky + Science + News,AcademicSky + Science + News,76856,76026,2097,2214,0.0291,1575,137,1401,133,False,True,True,False
+Blacksky,Blacksky,86490,86299,1564,1869,0.0217,988,119,839,116,False,True,False,False
+All feeds merged,#Disability + #UkrainianView + AcademicSky + Blacksky + BookSky + Game Dev + GreenSky + News + Political Science + Science + What's History,168463,167368,5237,4299,0.0257,4009,308,3569,300,True,True,True,True
