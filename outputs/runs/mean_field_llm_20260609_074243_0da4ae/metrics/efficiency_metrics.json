@@ -1,0 +1,10 @@
+{
+  "method": "mean_field_llm",
+  "llm_calls": 40,
+  "input_tokens": 20543,
+  "output_tokens": 28119,
+  "total_tokens": 48662,
+  "runtime_s": 337.84,
+  "threads_processed": 20,
+  "avg_runtime_per_thread": 16.892
+}

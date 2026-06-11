@@ -1,0 +1,6 @@
+cohort_id,agent_id,user_id,activity_score,strategy,post_count,matched_thread_post_count
+C0,A0095,297940,53.4271,highest_activity,30,16
+C1,A0071,8,124.7333,highest_activity,118,1
+C2,A0047,88639,231.9036,highest_activity,220,4
+C3,A0023,27967,482.1747,highest_activity,456,17
+C4,A0000,37717,3512.1663,highest_activity,3482,19

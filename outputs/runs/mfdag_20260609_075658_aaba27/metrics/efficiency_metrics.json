@@ -1,0 +1,10 @@
+{
+  "method": "mfdag",
+  "llm_calls": 10,
+  "input_tokens": 6338,
+  "output_tokens": 6649,
+  "total_tokens": 12987,
+  "runtime_s": 82.36,
+  "threads_processed": 5,
+  "avg_runtime_per_thread": 16.472
+}

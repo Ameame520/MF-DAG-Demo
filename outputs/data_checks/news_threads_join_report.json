@@ -1,0 +1,232 @@
+{
+  "generated_at": "2026-06-09T14:37:47.291437",
+  "data_root": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data",
+  "feed_name": "News",
+  "feed_path": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/feed_posts/feed_posts/News.jsonl.gz",
+  "threads_path": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/graphs/graphs/threads.txt",
+  "news_stats": {
+    "total_posts": 42112,
+    "unique_post_ids": 41685,
+    "unique_user_ids": 75,
+    "date_min": 202302200227,
+    "date_max": 202403182341,
+    "text_nonempty_count": 41639,
+    "text_nonempty_ratio": 0.9888,
+    "reply_to_nonempty_count": 683,
+    "quotes_nonempty_count": 0,
+    "like_count": {
+      "mean": 43.18,
+      "median": 3.0,
+      "max": 4017
+    },
+    "reply_count": {
+      "mean": 1.62,
+      "median": 0.0,
+      "max": 441
+    },
+    "repost_count": {
+      "mean": 5.24,
+      "median": 1.0,
+      "max": 1197
+    }
+  },
+  "join_stats": {
+    "threads_file": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/data/graphs/graphs/threads.txt",
+    "threads_is_gzip": false,
+    "total_threads_scanned": 19486141,
+    "threads_with_at_least_1_news_post": 56889,
+    "threads_with_at_least_2_news_posts": 788,
+    "threads_with_at_least_3_news_posts": 76,
+    "threads_with_at_least_5_news_posts": 7,
+    "news_posts_matched_in_threads": 1311,
+    "news_posts_matched_ratio": 0.0315,
+    "covered_news_unique_user_ids": 46
+  },
+  "condition_summaries": {
+    "condition_1": {
+      "candidate_thread_count": 54039,
+      "thread_len": {
+        "mean": 15.05,
+        "median": 4,
+        "max": 10808
+      },
+      "matched_post_count": {
+        "mean": 1.02,
+        "median": 1,
+        "max": 10
+      },
+      "join_coverage": {
+        "mean": 0.2817,
+        "median": 0.25
+      },
+      "unique_user_ids": 45,
+      "sufficient_for_200_agents": false,
+      "sufficient_for_500_threads": true,
+      "sufficient_for_1000_threads": true,
+      "sufficient_for_2000_threads": true
+    },
+    "condition_2": {
+      "candidate_thread_count": 677,
+      "thread_len": {
+        "mean": 127.27,
+        "median": 13,
+        "max": 10808
+      },
+      "matched_post_count": {
+        "mean": 2.16,
+        "median": 2,
+        "max": 10
+      },
+      "join_coverage": {
+        "mean": 0.2385,
+        "median": 0.15789473684210525
+      },
+      "unique_user_ids": 25,
+      "sufficient_for_200_agents": false,
+      "sufficient_for_500_threads": true,
+      "sufficient_for_1000_threads": false,
+      "sufficient_for_2000_threads": false
+    },
+    "condition_3": {
+      "candidate_thread_count": 539,
+      "thread_len": {
+        "mean": 158.98,
+        "median": 25,
+        "max": 10808
+      },
+      "matched_post_count": {
+        "mean": 2.18,
+        "median": 2,
+        "max": 10
+      },
+      "join_coverage": {
+        "mean": 0.141,
+        "median": 0.08695652173913043
+      },
+      "unique_user_ids": 24,
+      "sufficient_for_200_agents": false,
+      "sufficient_for_500_threads": true,
+      "sufficient_for_1000_threads": false,
+      "sufficient_for_2000_threads": false
+    },
+    "condition_4": {
+      "candidate_thread_count": 65,
+      "thread_len": {
+        "mean": 372.38,
+        "median": 24,
+        "max": 10808
+      },
+      "matched_post_count": {
+        "mean": 3.48,
+        "median": 3,
+        "max": 10
+      },
+      "join_coverage": {
+        "mean": 0.1969,
+        "median": 0.14285714285714285
+      },
+      "unique_user_ids": 13,
+      "sufficient_for_200_agents": false,
+      "sufficient_for_500_threads": false,
+      "sufficient_for_1000_threads": false,
+      "sufficient_for_2000_threads": false
+    },
+    "condition_5": {
+      "candidate_thread_count": 7,
+      "thread_len": {
+        "mean": 5.71,
+        "median": 5,
+        "max": 7
+      },
+      "matched_post_count": {
+        "mean": 3.29,
+        "median": 3,
+        "max": 4
+      },
+      "join_coverage": {
+        "mean": 0.5776,
+        "median": 0.6
+      },
+      "unique_user_ids": 5,
+      "sufficient_for_200_agents": false,
+      "sufficient_for_500_threads": false,
+      "sufficient_for_1000_threads": false,
+      "sufficient_for_2000_threads": false
+    },
+    "condition_6": {
+      "candidate_thread_count": 53,
+      "thread_len": {
+        "mean": 455.19,
+        "median": 31,
+        "max": 10808
+      },
+      "matched_post_count": {
+        "mean": 3.55,
+        "median": 3,
+        "max": 10
+      },
+      "join_coverage": {
+        "mean": 0.1294,
+        "median": 0.12
+      },
+      "unique_user_ids": 13,
+      "sufficient_for_200_agents": false,
+      "sufficient_for_500_threads": false,
+      "sufficient_for_1000_threads": false,
+      "sufficient_for_2000_threads": false
+    }
+  },
+  "agent_sampling": {
+    "candidate_user_count": 45,
+    "activity_score_distribution": {
+      "min": 13,
+      "max": 15692,
+      "mean": 2094.73,
+      "median": 490.0,
+      "p25": 167.0,
+      "p75": 1790.0
+    },
+    "activity_tier_counts": {
+      "high": 9,
+      "middle": 5,
+      "low": 31
+    },
+    "activity_tier_thresholds": {
+      "high_min_score": 2122.0,
+      "low_max_score_exclusive": 1224.0
+    },
+    "stratified_sampling_targets": {
+      "high": 40,
+      "middle": 100,
+      "low": 60
+    },
+    "stratified_tier_sufficient": {
+      "high": false,
+      "middle": false,
+      "low": false
+    },
+    "can_stratified_sample_200_agents": false,
+    "alternatives_if_insufficient": [
+      "候选 user 仅 45 人，不足 200；可放宽 thread 筛选条件（如 condition_1）或合并多个 feed。",
+      "high 活跃度层仅 9 人，不足目标 40 人；可调整分层比例或降低 activity 分档阈值。",
+      "middle 活跃度层仅 5 人，不足目标 100 人；可调整分层比例或降低 activity 分档阈值。",
+      "low 活跃度层仅 31 人，不足目标 60 人；可调整分层比例或降低 activity 分档阈值。"
+    ]
+  },
+  "feasibility_conclusion": {
+    "news_feed_usable": true,
+    "sufficient_for_500_2000_threads": true,
+    "sufficient_for_2000_threads_strict": true,
+    "sufficient_for_200_agents": false,
+    "post_level_thread_propagation_feasible": false,
+    "recommended_condition": "condition_2",
+    "retreat_options": [
+      "News post 在 threads 中覆盖率偏低，可仅用 matched posts 做 cascade 子集实验，或换用覆盖面更大的 feed（如 Popular 或全 interactions 推导的 thread）。",
+      "候选 user 仅 45 人，不足 200；可放宽 thread 筛选条件（如 condition_1）或合并多个 feed。",
+      "high 活跃度层仅 9 人，不足目标 40 人；可调整分层比例或降低 activity 分档阈值。",
+      "middle 活跃度层仅 5 人，不足目标 100 人；可调整分层比例或降低 activity 分档阈值。",
+      "low 活跃度层仅 31 人，不足目标 60 人；可调整分层比例或降低 activity 分档阈值。"
+    ]
+  },
+  "primary_candidate_condition": "condition_1"
+}

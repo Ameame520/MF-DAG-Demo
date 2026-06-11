@@ -1,0 +1,72 @@
+{
+  "methods": [
+    {
+      "run_dir": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/outputs/runs/mfdag_20260609_073631_9df670",
+      "run_id": "mfdag_20260609_073631_9df670",
+      "method": "mfdag",
+      "status": "success",
+      "llm_calls": 40,
+      "input_tokens": 27303,
+      "output_tokens": 30622,
+      "total_tokens": 57925,
+      "runtime_s": 370.34,
+      "threads_processed": 20,
+      "avg_runtime_per_thread": 18.517,
+      "eval_steps": 6,
+      "continuation_size_mae": 1.0,
+      "continuation_size_rmse": 1.1547,
+      "user_f1_mean": 0.0,
+      "user_recall_mean": 0.0,
+      "cohort_js_distance_mean": 0.25,
+      "cohort_kl_distance_mean": 6.9078,
+      "label": "MF-DAG",
+      "key": "mfdag"
+    },
+    {
+      "run_dir": "/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/outputs/runs/mean_field_llm_20260609_074243_0da4ae",
+      "run_id": "mean_field_llm_20260609_074243_0da4ae",
+      "method": "mean_field_llm",
+      "status": "success",
+      "llm_calls": 40,
+      "input_tokens": 20543,
+      "output_tokens": 28119,
+      "total_tokens": 48662,
+      "runtime_s": 337.84,
+      "threads_processed": 20,
+      "avg_runtime_per_thread": 16.892,
+      "eval_steps": 6,
+      "continuation_size_mae": 1.1667,
+      "continuation_size_rmse": 1.2247,
+      "user_f1_mean": 0.0,
+      "user_recall_mean": 0.0,
+      "cohort_js_distance_mean": 0.0,
+      "cohort_kl_distance_mean": 0.0,
+      "label": "Mean-Field-LLM",
+      "key": "mean_field_llm"
+    },
+    {
+      "label": "Full LLM-Agent",
+      "method": "full_llm_agent",
+      "status": "skipped",
+      "error": "skipped by user request"
+    },
+    {
+      "label": "Rule-based Agent",
+      "method": "rule_based_agent",
+      "status": "skipped",
+      "error": "skipped by user request"
+    }
+  ],
+  "mfdag_vs_mean_field_llm": {
+    "user_f1_delta": 0.0,
+    "size_mae_delta": -0.1667,
+    "cohort_js_delta": 0.25,
+    "llm_calls_same": true
+  },
+  "batch_params": {
+    "debug_threads": 20,
+    "debug_agents": 20,
+    "debug_cohorts": 2
+  },
+  "note": "Full LLM-Agent and Rule-based skipped; comparison based on completed runs only."
+}

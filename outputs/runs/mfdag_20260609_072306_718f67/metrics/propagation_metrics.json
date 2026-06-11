@@ -1,0 +1,7 @@
+{
+  "eval_steps": 1,
+  "continuation_size_mae": 2.0,
+  "continuation_size_rmse": 2.0,
+  "user_f1_mean": 0.0,
+  "user_recall_mean": 0.0
+}

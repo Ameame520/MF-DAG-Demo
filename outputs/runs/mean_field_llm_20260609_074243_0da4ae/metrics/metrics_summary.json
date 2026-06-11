@@ -1,0 +1,26 @@
+{
+  "run_id": "mean_field_llm_20260609_074243_0da4ae",
+  "method": "mean_field_llm",
+  "efficiency_metrics": {
+    "method": "mean_field_llm",
+    "llm_calls": 40,
+    "input_tokens": 20543,
+    "output_tokens": 28119,
+    "total_tokens": 48662,
+    "runtime_s": 337.84,
+    "threads_processed": 20,
+    "avg_runtime_per_thread": 16.892
+  },
+  "propagation_metrics": {
+    "eval_steps": 6,
+    "continuation_size_mae": 1.1667,
+    "continuation_size_rmse": 1.2247,
+    "user_f1_mean": 0.0,
+    "user_recall_mean": 0.0
+  },
+  "cohort_metrics": {
+    "cohort_js_distance_mean": 0.0,
+    "cohort_kl_distance_mean": 0.0,
+    "eval_steps": 6
+  }
+}

@@ -1,0 +1,5 @@
+label,method,status,run_id,llm_calls,total_tokens,runtime_s,threads_processed,eval_steps,continuation_size_mae,continuation_size_rmse,user_f1_mean,user_recall_mean,cohort_js_distance_mean,cohort_kl_distance_mean,run_dir,error
+MF-DAG,mfdag,success,mfdag_20260609_073631_9df670,40,57925,370.34,20,6,1.0,1.1547,0.0,0.0,0.25,6.9078,/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/outputs/runs/mfdag_20260609_073631_9df670,
+Mean-Field-LLM,mean_field_llm,success,mean_field_llm_20260609_074243_0da4ae,40,48662,337.84,20,6,1.1667,1.2247,0.0,0.0,0.0,0.0,/Users/fgod/Desktop/FGOD/MF-DAG/MF-DAG/outputs/runs/mean_field_llm_20260609_074243_0da4ae,
+Full LLM-Agent,full_llm_agent,skipped,,,,,,,,,,,,,,skipped by user request
+Rule-based Agent,rule_based_agent,skipped,,,,,,,,,,,,,,skipped by user request

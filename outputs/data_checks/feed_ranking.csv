@@ -1,0 +1,12 @@
+rank,feed_name,recommended_condition,candidate_threads,unique_users,join_coverage,text_nonempty_ratio,sufficient_200_agents,sufficient_500_threads,can_stratified_sample_200,reason
+1,Blacksky,condition_2,988,119,0.0217,0.9875,False,True,False,users=119<200; threads>=500; join=2.17%
+2,News,condition_2,677,25,0.0315,0.9888,False,True,False,users=25<200; threads>=500; join=3.15%
+3,Science,condition_2,419,89,0.0269,1.0,False,False,False,users=89<200; threads=419<500; join=2.69%
+4,#UkrainianView,condition_2,11,3,0.0839,0.9995,False,False,False,users=3<200; threads=11<500; join=8.39%
+5,What's History,condition_2,0,0,0.0311,1.0,False,False,False,users=0<200; threads=0<500; join=3.11%
+6,GreenSky,condition_2,0,0,0.0243,1.0,False,False,False,users=0<200; threads=0<500; join=2.43%
+7,#Disability,condition_2,0,0,0.0106,1.0,False,False,False,users=0<200; threads=0<500; join=1.06%
+8,BookSky,condition_2,0,0,0.0094,1.0,False,False,False,users=0<200; threads=0<500; join=0.94%
+9,Political Science,condition_2,0,0,0.0084,1.0,False,False,False,users=0<200; threads=0<500; join=0.84%
+10,Game Dev,condition_2,0,0,0.0079,1.0,False,False,False,users=0<200; threads=0<500; join=0.79%
+11,AcademicSky,condition_2,0,0,0.0044,1.0,False,False,False,users=0<200; threads=0<500; join=0.44%

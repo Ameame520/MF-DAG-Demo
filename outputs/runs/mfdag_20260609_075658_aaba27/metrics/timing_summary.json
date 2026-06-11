@@ -1,0 +1,127 @@
+{
+  "tracked_total_s": 82.5953,
+  "wall_runtime_s": 82.3644,
+  "untracked_s": 0.0,
+  "stages": [
+    {
+      "stage": "llm_api_call",
+      "total_s": 82.3453,
+      "count": 10,
+      "mean_s": 8.2345,
+      "median_s": 9.2823,
+      "max_s": 9.9305,
+      "pct_of_tracked": 99.7,
+      "pct_of_runtime": 99.98
+    },
+    {
+      "stage": "data_load",
+      "total_s": 0.2329,
+      "count": 1,
+      "mean_s": 0.2329,
+      "median_s": 0.2329,
+      "max_s": 0.2329,
+      "pct_of_tracked": 0.28,
+      "pct_of_runtime": 0.28
+    },
+    {
+      "stage": "follower_update",
+      "total_s": 0.0057,
+      "count": 10,
+      "mean_s": 0.0006,
+      "median_s": 0.0006,
+      "max_s": 0.0007,
+      "pct_of_tracked": 0.01,
+      "pct_of_runtime": 0.01
+    },
+    {
+      "stage": "memory_update",
+      "total_s": 0.0029,
+      "count": 5,
+      "mean_s": 0.0006,
+      "median_s": 0.0006,
+      "max_s": 0.0008,
+      "pct_of_tracked": 0.0,
+      "pct_of_runtime": 0.0
+    },
+    {
+      "stage": "decision_log_io",
+      "total_s": 0.0027,
+      "count": 10,
+      "mean_s": 0.0003,
+      "median_s": 0.0002,
+      "max_s": 0.0005,
+      "pct_of_tracked": 0.0,
+      "pct_of_runtime": 0.0
+    },
+    {
+      "stage": "memory_retrieval",
+      "total_s": 0.0018,
+      "count": 10,
+      "mean_s": 0.0002,
+      "median_s": 0.0001,
+      "max_s": 0.0005,
+      "pct_of_tracked": 0.0,
+      "pct_of_runtime": 0.0
+    },
+    {
+      "stage": "mean_field_compress",
+      "total_s": 0.0018,
+      "count": 10,
+      "mean_s": 0.0002,
+      "median_s": 0.0001,
+      "max_s": 0.0004,
+      "pct_of_tracked": 0.0,
+      "pct_of_runtime": 0.0
+    },
+    {
+      "stage": "state_transition",
+      "total_s": 0.0012,
+      "count": 5,
+      "mean_s": 0.0002,
+      "median_s": 0.0002,
+      "max_s": 0.0005,
+      "pct_of_tracked": 0.0,
+      "pct_of_runtime": 0.0
+    },
+    {
+      "stage": "prompt_build",
+      "total_s": 0.0008,
+      "count": 10,
+      "mean_s": 0.0001,
+      "median_s": 0.0001,
+      "max_s": 0.0001,
+      "pct_of_tracked": 0.0,
+      "pct_of_runtime": 0.0
+    },
+    {
+      "stage": "step_prepare",
+      "total_s": 0.0001,
+      "count": 5,
+      "mean_s": 0.0,
+      "median_s": 0.0,
+      "max_s": 0.0,
+      "pct_of_tracked": 0.0,
+      "pct_of_runtime": 0.0
+    },
+    {
+      "stage": "post_step_bookkeeping",
+      "total_s": 0.0001,
+      "count": 5,
+      "mean_s": 0.0,
+      "median_s": 0.0,
+      "max_s": 0.0,
+      "pct_of_tracked": 0.0,
+      "pct_of_runtime": 0.0
+    },
+    {
+      "stage": "signal_parse",
+      "total_s": 0.0,
+      "count": 4,
+      "mean_s": 0.0,
+      "median_s": 0.0,
+      "max_s": 0.0,
+      "pct_of_tracked": 0.0,
+      "pct_of_runtime": 0.0
+    }
+  ]
+}
