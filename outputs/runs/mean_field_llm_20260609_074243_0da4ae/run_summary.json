@@ -1,0 +1,15 @@
+{
+  "run_id": "mean_field_llm_20260609_074243_0da4ae",
+  "method": "mean_field_llm",
+  "threads_processed": 20,
+  "eval_threads": 6,
+  "agents": 20,
+  "cohorts": 2,
+  "runtime_s": 337.84,
+  "llm_calls": 40,
+  "input_tokens": 20543,
+  "output_tokens": 28119,
+  "total_tokens": 48662,
+  "total_latency_s": 337.7401,
+  "avg_latency_s": 8.4435
+}
