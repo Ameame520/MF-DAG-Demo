@@ -25,8 +25,9 @@ from mfdag.simulation.transition import (
     log_transition,
 )
 from mfdag.follower.updater import FollowerUpdater
-from mfdag.utils.io import append_jsonl, read_csv, read_jsonl, write_json
+from mfdag.utils.io import append_jsonl, read_csv, read_jsonl, write_json, write_jsonl
 from mfdag.utils.llm_client import DeepSeekClient, LLMUsageTracker
+from mfdag.utils.timing import StageTimer
 
 
 def subset_processed_data(
@@ -117,7 +118,12 @@ class SimulationRunner:
         self.use_memory = use_memory
         self.use_mean_field = use_mean_field
         self.use_follower = use_follower
+        self.timer = StageTimer()
+        t_load = time.perf_counter()
         self.data = ProcessedData(cfg)
+        self.timer.totals["data_load"] = time.perf_counter() - t_load
+        self.timer.counts["data_load"] = 1
+        self.timer.records.append({"stage": "data_load", "elapsed_s": round(self.timer.totals["data_load"], 6)})
         self.prediction_mode = cfg["simulation"].get("prediction_mode", "one_step")
         self.text_max_chars = cfg["simulation"].get("prompt_text_max_chars", 200)
         self.eval_ratio = cfg["simulation"].get("eval_ratio", 0.3)
@@ -154,7 +160,10 @@ class SimulationRunner:
             run_dir / "decisions" / "representative_decisions.jsonl",
             text_max_chars=self.text_max_chars,
             use_memory=self.use_memory,
+            timer=self.timer,
         )
+        self.timing_path = run_dir / "metrics" / "timing_events.jsonl"
+        self.timing_summary_path = run_dir / "metrics" / "timing_summary.json"
         self.follower = FollowerUpdater(run_dir / "simulation" / "follower_actions.jsonl", self.random_seed)
         self.mean_field_path = run_dir / "simulation" / "mean_field_states.jsonl"
         self.transition_path = run_dir / "simulation" / "state_transitions.jsonl"
@@ -211,6 +220,9 @@ class SimulationRunner:
                 self._run_step(thread_row, step, mem_cfg)
 
         runtime = time.time() - self.t0
+        timing_summary = self.timer.summary(total_runtime_s=runtime)
+        write_json(self.timing_summary_path, timing_summary)
+        write_jsonl(self.timing_path, self.timer.records)
         summary = {
             "run_id": self.run_dir.name,
             "method": self.method,
@@ -219,6 +231,7 @@ class SimulationRunner:
             "agents": len(self.data.agents),
             "cohorts": len(self.cohort_ids),
             "runtime_s": round(runtime, 2),
+            "timing_summary": timing_summary,
             **self.tracker.summary(),
         }
         write_json(self.run_dir / "run_summary.json", summary)
@@ -227,43 +240,51 @@ class SimulationRunner:
     def _run_step(self, thread_row: Dict[str, str], step: Dict[str, Any], mem_cfg: Dict[str, Any]) -> None:
         thread_id = thread_row["thread_id"]
         step_id = step["step_id"]
-        observed_users: Set[int] = set(step["observed_user_ids"])
-        observed_texts = [
-            truncate_text(self.data.post_index[pid].get("text", ""), self.text_max_chars)
-            for pid in step["observed_post_ids"]
-            if pid in self.data.post_index
-        ]
-        thread_meta = {
-            "thread_len": int(thread_row["thread_len"]),
-            "matched_post_count": int(thread_row["matched_post_count"]),
-            "join_coverage": float(thread_row["join_coverage"]),
-        }
+
+        with self.timer.track("step_prepare", thread_id=thread_id, step_id=step_id):
+            observed_users: Set[int] = set(step["observed_user_ids"])
+            observed_texts = [
+                truncate_text(self.data.post_index[pid].get("text", ""), self.text_max_chars)
+                for pid in step["observed_post_ids"]
+                if pid in self.data.post_index
+            ]
+            thread_meta = {
+                "thread_len": int(thread_row["thread_len"]),
+                "matched_post_count": int(thread_row["matched_post_count"]),
+                "join_coverage": float(thread_row["join_coverage"]),
+            }
 
         all_follower_actions: List[Dict[str, Any]] = []
         cohort_signals: Dict[str, Dict[str, Any]] = {}
 
         for cohort_id in self.cohort_ids:
-            mf_state = self.compressor.compress(
-                thread_id=thread_id,
-                step_id=step_id,
-                cohort_id=cohort_id,
-                thread_meta=thread_meta,
-                observed_user_ids=observed_users,
-                observed_post_texts=observed_texts,
-            )
-            append_jsonl(self.mean_field_path, mf_state)
+            with self.timer.track(
+                "mean_field_compress", thread_id=thread_id, step_id=step_id, cohort_id=cohort_id
+            ):
+                mf_state = self.compressor.compress(
+                    thread_id=thread_id,
+                    step_id=step_id,
+                    cohort_id=cohort_id,
+                    thread_meta=thread_meta,
+                    observed_user_ids=observed_users,
+                    observed_post_texts=observed_texts,
+                )
+                append_jsonl(self.mean_field_path, mf_state)
 
             retrieved = {"global": [], "cohort": []}
             if self.use_memory and mem_cfg.get("enabled", True):
-                retrieved = self.retriever.retrieve_all(
-                    self.memory_bank,
-                    cohort_id,
-                    mf_state,
-                    mem_cfg.get("retrieval_top_k_global", 3),
-                    mem_cfg.get("retrieval_top_k_cohort", 3),
-                    thread_id,
-                    step_id,
-                )
+                with self.timer.track(
+                    "memory_retrieval", thread_id=thread_id, step_id=step_id, cohort_id=cohort_id
+                ):
+                    retrieved = self.retriever.retrieve_all(
+                        self.memory_bank,
+                        cohort_id,
+                        mf_state,
+                        mem_cfg.get("retrieval_top_k_global", 3),
+                        mem_cfg.get("retrieval_top_k_cohort", 3),
+                        thread_id,
+                        step_id,
+                    )
 
             rep_row = self.data.representatives.get(cohort_id, {})
             rep_profile = self.data.agent_profiles.get(rep_row.get("agent_id", ""), {})
@@ -283,55 +304,63 @@ class SimulationRunner:
                     for aid in self.data.cohort_members.get(cohort_id, [])
                     if aid in self.data.agent_profiles
                 ]
-                actions = self.follower.update_followers(
-                    thread_id=thread_id,
-                    step_id=step_id,
-                    cohort_id=cohort_id,
-                    decision_signal_id=decision["decision_signal_id"],
-                    decision_signal=signal,
-                    member_profiles=members,
-                    observed_user_ids=observed_users,
-                )
+                with self.timer.track(
+                    "follower_update", thread_id=thread_id, step_id=step_id, cohort_id=cohort_id
+                ):
+                    actions = self.follower.update_followers(
+                        thread_id=thread_id,
+                        step_id=step_id,
+                        cohort_id=cohort_id,
+                        decision_signal_id=decision["decision_signal_id"],
+                        decision_signal=signal,
+                        member_profiles=members,
+                        observed_user_ids=observed_users,
+                    )
                 all_follower_actions.extend(actions)
 
-        target_uid = int(step["target_user_id"])
-        target_cohort = self.data.user_to_cohort.get(target_uid, "")
-        real_next = build_real_next_state(
-            target_user_id=target_uid,
-            target_cohort_id=target_cohort,
-            target_post_id=int(step["target_post_id"]),
-        )
-        sim_next = build_simulated_next_state(all_follower_actions, self.data.user_to_cohort)
-        pred_err = compute_prediction_error(real_next, sim_next)
+        with self.timer.track("state_transition", thread_id=thread_id, step_id=step_id):
+            target_uid = int(step["target_user_id"])
+            target_cohort = self.data.user_to_cohort.get(target_uid, "")
+            real_next = build_real_next_state(
+                target_user_id=target_uid,
+                target_cohort_id=target_cohort,
+                target_post_id=int(step["target_post_id"]),
+            )
+            sim_next = build_simulated_next_state(all_follower_actions, self.data.user_to_cohort)
+            pred_err = compute_prediction_error(real_next, sim_next)
 
-        transition = {
-            "thread_id": thread_id,
-            "root_time": thread_row["root_time"],
-            "step_id": step_id,
-            "method": self.method,
-            "is_eval": thread_id in self.eval_thread_ids,
-            "real_next_state": real_next,
-            "simulated_next_state": sim_next,
-            "prediction_error": pred_err,
-        }
-        log_transition(self.transition_path, transition)
-        if thread_id in self.eval_thread_ids:
-            self.eval_records.append(transition)
+            transition = {
+                "thread_id": thread_id,
+                "root_time": thread_row["root_time"],
+                "step_id": step_id,
+                "method": self.method,
+                "is_eval": thread_id in self.eval_thread_ids,
+                "real_next_state": real_next,
+                "simulated_next_state": sim_next,
+                "prediction_error": pred_err,
+            }
+            log_transition(self.transition_path, transition)
+            if thread_id in self.eval_thread_ids:
+                self.eval_records.append(transition)
 
         text_summary = (
             f"Thread {thread_id} step {step_id}: real users={real_next['participation_count']}, "
             f"sim users={sim_next['participation_count']}, f1={pred_err['user_f1']}"
         )
         if self.use_memory and mem_cfg.get("enabled", True):
-            self._update_memory(thread_row, step_id, mf_state, cohort_signals, real_next, sim_next, pred_err, text_summary)
+            with self.timer.track("memory_update", thread_id=thread_id, step_id=step_id):
+                self._update_memory(
+                    thread_row, step_id, mf_state, cohort_signals, real_next, sim_next, pred_err, text_summary
+                )
 
-        for cohort_id in self.cohort_ids:
-            rate = sum(
-                1
-                for uid in observed_users
-                if self.data.user_to_cohort.get(uid) == cohort_id
-            ) / max(len(self.data.cohort_members.get(cohort_id, [])), 1)
-            self.compressor.record_historical(cohort_id, rate)
+        with self.timer.track("post_step_bookkeeping", thread_id=thread_id, step_id=step_id):
+            for cohort_id in self.cohort_ids:
+                rate = sum(
+                    1
+                    for uid in observed_users
+                    if self.data.user_to_cohort.get(uid) == cohort_id
+                ) / max(len(self.data.cohort_members.get(cohort_id, [])), 1)
+                self.compressor.record_historical(cohort_id, rate)
 
     def _update_memory(
         self,
